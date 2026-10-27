@@ -1,0 +1,18 @@
+metrik,nilai
+baris_total,1067371
+baris_sheet_2009_2010,525461
+baris_sheet_2010_2011,541910
+tanggal_min,2009-12-01 07:45
+tanggal_max,2011-12-09 12:50
+overlap_mulai,2010-12-01 08:26
+overlap_selesai,2010-12-09 20:01
+baris_di_periode_overlap_sheet_2009_2010,22523
+baris_di_periode_overlap_sheet_2010_2011,22523
+baris_duplikat_persis_total,34335
+customer_id_kosong,243007
+customer_id_kosong_pct,22.77
+invoice_berawalan_C,19494
+harga_nol_atau_negatif,6207
+qty_nol_atau_negatif_bukan_retur,3457
+customer_unik_raw,5942
+negara_unik,43

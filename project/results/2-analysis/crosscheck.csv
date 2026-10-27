@@ -1,0 +1,14 @@
+cek,dibandingkan,cocok,status
+pelanggan_jumlah,5852,5852,PASS
+pelanggan_id_sama,5852,5852,PASS
+frequency_per_pelanggan,5852,5852,PASS
+recency_days_per_pelanggan,5852,5852,PASS
+r_score_per_pelanggan,5852,5852,PASS
+f_score_per_pelanggan,5852,5852,PASS
+m_score_per_pelanggan,5852,5852,PASS
+monetary_per_pelanggan_selisih<0.01,5852,5852,PASS
+cohort_month_per_pelanggan,5852,5852,PASS
+retensi_kohort_baris,300,300,PASS
+retensi_kohort_jumlah_aktif_cocok,300,300,PASS
+retensi_kohort_rate_selisih<1e-6,300,300,PASS
+cohort_size_cocok,300,300,PASS

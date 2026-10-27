@@ -1,0 +1,9 @@
+segment,pelanggan,pct_pelanggan,revenue,pct_revenue,revenue_per_pelanggan,median_recency_hari,aksi
+Champions,1463,25.0,11763738.37,68.92,8040.83,17.0,pertahankan
+Loyal,1218,20.81,2472116.94,14.48,2029.65,73.0,pertahankan
+Potential Loyalist,394,6.73,393413.4,2.3,998.51,30.0,pertahankan
+New,54,0.92,18799.37,0.11,348.14,11.0,pertahankan
+Need Attention,383,6.54,205450.0,1.2,536.42,93.0,aktifkan kembali
+At Risk,829,14.17,1595243.09,9.35,1924.3,374.0,aktifkan kembali
+Lost,509,8.7,165988.63,0.97,326.11,572.0,biarkan
+Hibernating,1002,17.12,454564.97,2.66,453.66,389.5,biarkan

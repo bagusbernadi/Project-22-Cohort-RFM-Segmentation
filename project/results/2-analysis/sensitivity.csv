@@ -1,0 +1,10 @@
+definisi,varian,baseline,alternatif,selisih_poin
+aktif,"aktif = >=2 invoice per bulan (bulan 1, rata-rata antar kohort)",0.2129,0.0516,-16.13
+aktif,"aktif = >=2 invoice per bulan (bulan 3, rata-rata antar kohort)",0.2204,0.0509,-16.95
+aktif,"aktif = >=2 invoice per bulan (bulan 6, rata-rata antar kohort)",0.1846,0.0413,-14.33
+tanggal acuan recency,pelanggan segmen Champions (%),25.0,25.0,0.0
+tanggal acuan recency,pelanggan segmen At Risk (%),14.17,14.17,0.0
+H1 porsi revenue 20% teratas,tanpa data Des 2009 (dimulai 1 Jan 2010),77.15,76.86,-0.29
+Q9 uplift: revenue per pelanggan aktif per bulan,+2 poin: data (GBP 669) vs ilustrasi rancangan (GBP 250),535770.16,200135.28,
+Q9 uplift: revenue per pelanggan aktif per bulan,+5 poin: data (GBP 669) vs ilustrasi rancangan (GBP 250),1339425.39,500338.19,
+Q9 uplift: revenue per pelanggan aktif per bulan,+10 poin: data (GBP 669) vs ilustrasi rancangan (GBP 250),2678850.78,1000676.39,

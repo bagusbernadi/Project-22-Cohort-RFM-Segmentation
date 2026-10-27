@@ -1,0 +1,6 @@
+hipotesis,metrik,nilai,satuan,verdict,bukti
+H1,porsi revenue dari 20% pelanggan teratas,77.15,%,Terbukti,ambang: >= 50% = Terbukti (asumsi)
+H2,penurunan 0->1 dibanding rata-rata penurunan lanjutan (poin),78.71,% (lanjutan 0.04),Terbukti,rata-rata antar kohort; lihat q1_retention_by_cohort.csv
+H3,retensi Des 2009 bulan 1/3/6 vs rata-rata kohort lain (lebih tinggi?),34.98/42.54/37.71,%,Terbukti,"lebih tinggi di 3 dari 3 bulan (kohort 2009-12, n=952)"
+H4,rata-rata invoice per pelanggan (luar vs Inggris),6.24 vs 6.26,invoice,Terbukti,selisih frekuensi kecil; nilai per invoice luar 859.82 vs Inggris 428.28; Mann-Whitney frekuensi p=0.0364
+H5,persen baris tanpa Customer ID (raw),22.77,%,Terbukti,rentang 20-25% (rancangan)
