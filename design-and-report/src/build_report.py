@@ -2,6 +2,7 @@
 
 Jalankan dari root repo: python design-and-report/src/build_report.py
 """
+import re
 import sys
 from pathlib import Path
 import pandas as pd
@@ -383,6 +384,20 @@ report_pane = ('<div class="pane" id="report" data-tab="report" hidden>\n' + int
 head_part = src[:d_start]
 assert head_part.count("</style>") == 1, "blok style harus satu"
 head_part = head_part.replace("</style>", REPORT_CSS + "</style>")
+NAV_NEW = (
+    '<nav aria-label="Project navigation">'
+    '<button type="button" class="tab on" data-t="design" aria-expanded="true" aria-controls="design">Design Project</button>'
+    '<button type="button" class="tab" data-t="report" aria-expanded="false" aria-controls="report">Report Project</button>'
+    '<div class="links" data-tab="design">'
+    '<a href="#s1">Background</a><a href="#s2">Business Questions</a><a href="#s3">Cohort &amp; RFM</a>'
+    '<a href="#s4">Dataset</a><a href="#s5">Tools</a><a href="#s6">Work Plan</a><a href="#s7">Project Outputs</a>'
+    '<a href="#s8">Success Criteria</a><a href="#s9">Assumptions &amp; Limitations</a></div>'
+    '<div class="links" data-tab="report" hidden>'
+    '<a href="#rp1">Data</a><a href="#rp2">Business Questions</a><a href="#rp3">Dataset</a><a href="#rp4">Tools</a>'
+    '<a href="#rp5">Alur Kerja</a><a href="#rp6">Project Output</a><a href="#rp7">Kesimpulan</a></div></nav>'
+)
+head_part, n_nav = re.subn(r'<nav aria-label="Project navigation">.*?</nav>', lambda m: NAV_NEW, head_part, flags=re.S)
+assert n_nav == 1, n_nav
 out = head_part + design_pane + report_pane + script_block
 # pastikan pane Design tidak berubah
 out_path = HERE.parent / "index.html"
