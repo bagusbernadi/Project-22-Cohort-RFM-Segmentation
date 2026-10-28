@@ -9,7 +9,7 @@
 | Data | Dataset publik: Online Retail II (UCI Machine Learning Repository), data nyata, bukan simulasi |
 | Tools | DuckDB + SQL, Python (pandas, SciPy), Streamlit + Plotly |
 
-Status: **Selesai di branch `project-22-build`** (belum di-merge ke `main`). Dashboard belum di-deploy.
+Status: **Selesai dan digabung ke `main`.** Dashboard belum di-deploy.
 
 Pertanyaan utama: pola retensi pelanggan per kohort, segmen RFM mana yang paling bernilai atau paling berisiko, dan strategi apa untuk tiap segmen.
 
@@ -50,8 +50,8 @@ Estimasi (label estimated, bukan hasil eksperimen): kenaikan retensi bulan 1 seb
 - Menggeser tanggal acuan recency tidak mengubah segmen, karena `NTILE` berbasis peringkat.
 - Stabilitas segmen rendah: hanya 41,3% pelanggan yang sama segmennya antara snapshot 2010 dan 2011.
 - Segmen menunjukkan perilaku, bukan penyebab berhenti belanja.
-- Dashboard belum di-deploy; belum diuji oleh pembaca awam.
-- Branch `project-22-build` belum di-merge ke `main`.
+- Dashboard belum diuji oleh pembaca awam.
+- Dashboard dan repo sudah di-merge ke `main`; branch `project-22-build` tidak dipakai lagi.
 
 ## Menjalankan
 Dari folder `project/`:
